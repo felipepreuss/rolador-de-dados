@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+body{
+    align-items: center;
+    background-image: linear-gradient(rgb(115, 226, 180), rgb(0, 68, 255));
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+
+.rola{
+    backdrop-filter: blur (5, 5px);
+    background-color: rgba(127, 255, 212, 0.952);
+    border-radius: 15px;
+    display: block;
+}
+
+#botaoderolar{
+
+    border-radius: 15px;    
+    
+}
+
+/* to com preguiça de continuar decorando isso, vou enviar logo q saco 
+mo sono vtmnc 11 hora

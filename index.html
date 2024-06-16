@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLADOR DE DADOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="rola">
+    <h1>ROLADOR MESTRE</h1>
+
+    <label for="DADOS">ce tem dado em casa</label>
+   <select name="dados" id="dadosopicoe">
+    <option value="nulo">--</option>
+    <option value="4">D4</option>
+    <option value="6">D6</option>
+    <option value="8">D8</option>
+    <option value="10">D10</option>
+    <option value="12">D12</option>
+    <option value="20">D20</option>
+    <option value="100">D100</option>
+    <option value="1000">D1000</option>
+        </select> 
+
+        <button type="button"onclick="rolouLegal()" id = botaoderolar>Role seu dado</button>
+
+        <p>Resultado:</p>
+        <p id = resultado></p>
+
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
